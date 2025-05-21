@@ -2,7 +2,12 @@
  * @param {number[]} numbers an array of integers
  * @returns {number} the length of the array
  */
-function getLength(numbers) {
+function getLength(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.length; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -10,7 +15,12 @@ function getLength(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number} the sum of the numbers
  */
-function getSum(numbers) {
+function getSum(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getSum; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -18,7 +28,12 @@ function getSum(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number} the mean of the numbers
  */
-function getMean(numbers) {
+function getMean(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getMean; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -26,7 +41,12 @@ function getMean(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number} the smallest of the numbers
  */
-function getMin(numbers) {
+function getMin(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getMin; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -34,7 +54,12 @@ function getMin(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number} the largest of the numbers
  */
-function getMax(numbers) {
+function getMax(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getMax; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -42,7 +67,12 @@ function getMax(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number} the range of the numbers (max - min)
  */
-function getRange(numbers) {
+function getRange(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getRange; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -50,7 +80,12 @@ function getRange(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number[]} the even numbers in the array
  */
-function getEvens(numbers) {
+function getEvens(numbers) {('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getEvens; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
@@ -58,7 +93,12 @@ function getEvens(numbers) {
  * @param {number[]} numbers an array of integers
  * @returns {number[]} the odd numbers in the array
  */
-function getOdds(numbers) {
+function getOdds(numbers){('1 10 20 30 40')
+  const obj = {};
+  for (var i = 0; i < numbers.getOdds; i++) {
+    obj[numbers[i]] = (obj[numbers[i]] || 0) +1
+  }
+ return obj;
   // TODO
 }
 
